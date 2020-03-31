@@ -1,12 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    title: `Jonathan Picazo`,
+    description: `Herein lies the portfolio page of Jonathan Picazo. Along with an introduction, you can also browse through his projects and other skills. Should you wish to reach out, there is a blog section where you can view his thoughts.`,
+    author: `@macjabeth`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve('./src/layouts/index.js')
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -19,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Jonathan Picazo`,
+        short_name: `JP`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

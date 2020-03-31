@@ -1,7 +1,16 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+      },
+      listStyleType: {
+        circle: 'circle'
+      }
+    }
   },
   variants: {},
-  plugins: []
+  plugins: [require('@tailwindcss/ui')]
 };

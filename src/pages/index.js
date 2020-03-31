@@ -1,21 +1,33 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
-import Layout from '../components/layout';
-import Image from '../components/image';
+import ProfilePic from '../components/profile-pic';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
-    <h1 className="text-red-400">Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="flex justify-center py-5">
+      <ProfilePic className="rounded-md h-36 w-36" />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <header className="w-full text-3xl text-center p-4">
+      <h1>Jonathan Picazo</h1>
+    </header>
+    <ul className="my-2 leading-relaxed max-w-sm mx-auto list-circle">
+      <li className="my-2">
+        <em>Full Stack Developer</em> with a track record of creating effective
+        programs and projects quickly, without sacrificing quality or client
+        needs.
+      </li>{' '}
+      <li className="my-2">
+        <em>Lifelong learner</em> committed to staying current on new
+        technologies.
+      </li>{' '}
+      <li className="my-2">
+        <em>Team player</em> willing to take the lead on executing tasks and
+        experimenting with new ideas.
+      </li>
+    </ul>
+  </>
 );
 
 export default IndexPage;
