@@ -1,13 +1,13 @@
 import React from 'react';
 
-import ProfilePic from '../components/profile-pic';
+import ProfileImg from '../components/profile-img';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
   <>
     <SEO title="Home" />
     <div className="flex justify-center py-5">
-      <ProfilePic className="rounded-md h-36 w-36" />
+      <ProfileImg className="rounded-md h-36 w-36" />
     </div>
     <header className="w-full text-3xl text-center p-4">
       <h1>Jonathan Picazo</h1>
