@@ -16,12 +16,21 @@ h4,
 h5,
 h6 {
   @apply text-secondary;
-  letter-spacing: 8px;
+  @apply tracking-widest;
   @apply uppercase;
 }
 
 em {
   @apply text-emphasis;
+}
+
+.dot {
+  @apply h-1;
+  @apply w-1;
+  @apply bg-gray-500;
+  @apply rounded-full;
+  @apply inline-block;
+  @apply mx-2;
 }
 
 @tailwind components;
