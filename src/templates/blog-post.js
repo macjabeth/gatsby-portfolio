@@ -15,18 +15,21 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         description={post.frontmatter.description || post.excerpt}
       />
       <article>
-        <header>
+        <header className="blog-post">
           <h1 className="mt-4 mb-0">{post.frontmatter.title}</h1>
-          <p className="block mb-4">{post.frontmatter.date}</p>
+          <small className="block mb-4">{post.frontmatter.date}</small>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr className="mb-4" />
+        <section
+          className="blog-post"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
+        <hr className="my-6" />
         <footer>
           <Bio />
         </footer>
       </article>
 
-      <nav>
+      <nav className="mt-6">
         <ul
           style={{
             display: `flex`,

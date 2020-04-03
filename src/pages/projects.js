@@ -37,14 +37,14 @@ const ProjectsPage = () => {
               <div className="flex-1 p-6 flex flex-col justify-between">
                 <div className="flex-1 text-center">
                   <div>
-                    <div class="inline-block">
-                      <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                    <div className="inline-block">
+                      <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                         React
                       </span>
-                      <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                      <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                         Redux
                       </span>
-                      <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
+                      <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
                         Express
                       </span>
                     </div>
@@ -86,14 +86,14 @@ const ProjectsPage = () => {
               </div>
               <div className="flex-1 p-6 flex flex-col justify-between">
                 <div className="flex-1 text-center">
-                  <div class="inline-block">
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                  <div className="inline-block">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                       React
                     </span>
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                       Apollo
                     </span>
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
                       GraphQL
                     </span>
                   </div>
@@ -133,14 +133,14 @@ const ProjectsPage = () => {
               </div>
               <div className="flex-1 p-6 flex flex-col justify-between">
                 <div className="flex-1 text-center">
-                  <div class="inline-block">
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                  <div className="inline-block">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                       Vanilla
                     </span>
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300 mr-2">
                       JS
                     </span>
-                    <span class="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
+                    <span className="inline-flex items-center px-3 py-0.5 rounded-lg text-xs font-medium leading-5 bg-transparent border border-pink-400 text-pink-300">
                       CSS
                     </span>
                   </div>
