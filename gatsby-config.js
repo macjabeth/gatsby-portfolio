@@ -3,6 +3,7 @@ module.exports = {
     title: `Jonathan Picazo`,
     description: `Herein lies the portfolio page of Jonathan Picazo. Along with an introduction, you can also browse through his projects and other skills. Should you wish to reach out, there is a blog section where you can view his thoughts.`,
     author: `@macjabeth`,
+    siteUrl: `https://www.jonathanpicazo.me/`,
     social: {
       twitter: `macjabeth`
     }
